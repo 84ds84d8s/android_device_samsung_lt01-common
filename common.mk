@@ -57,9 +57,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/80cfw:system/etc/init.d/80cfw
 
-# Prebuilt Snap
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/Snap.apk:system/priv-app/Snap/Snap.apk
+# Prebuilt Snap- removed
 
 # GPS
 PRODUCT_COPY_FILES += \
